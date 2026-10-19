@@ -1,0 +1,15 @@
+
+{
+  "baseUrl": "http://127.0.0.1:8000/api",
+  "endpoints": {
+    "items": "/items"
+  },
+  "create": {
+    "name": "Rock Music",
+    "author": "Denis"
+  },
+  "update": {
+    "name": "Classic Rock"
+  },
+  "required_field": "name"
+}

@@ -1,0 +1,29 @@
+
+### Health check
+GET http://127.0.0.1:8000/health
+
+### Создать
+POST http://127.0.0.1:8000/api/items
+Content-Type: application/json
+
+{
+    "name": "Rock",
+    "author": "Denis"
+}
+
+### Список
+GET http://127.0.0.1:8000/api/items
+
+### Получить одну
+GET http://127.0.0.1:8000/api/items/1
+
+### Изменить
+PATCH http://127.0.0.1:8000/api/items/1
+Content-Type: application/json
+
+{
+    "name": "Classic Rock"
+}
+
+### Удалить
+DELETE http://127.0.0.1:8000/api/items/1
