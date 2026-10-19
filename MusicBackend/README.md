@@ -14,6 +14,7 @@
 python -m venv .venv (если проект без него то установить, нужен для работы)
 python -m pip install -r requirements.txt
 uvicorn main:app --reload --host 127.0.0.1 --port 8000
+python -m backcheck --lab 1 --url http://127.0.0.1:8000 (Чекер для проверки лабораторной работы №1
 ```
 Сервис работает на http://127.0.0.1:8000. Запросы для демонстрации лежат в requests.http.
 
